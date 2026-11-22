@@ -1,10 +1,10 @@
 <?php
 
-    //$host = "192.168.20.18"; dentro do ifsul
-    $host = "200.19.1.18"; //fora do ifsul
-    $dbname = "nicolasnunes";
-    $username = "nicolasnunes";
-    $password = "123456";
+    
+    $host = "seu_host"; 
+    $dbname = "seu_banco";
+    $username = "seu_usuario";
+    $password = "sua_senha";
 
     try {
         $pdo = new PDO("pgsql:host=$host;dbname=$dbname", $username, $password);
